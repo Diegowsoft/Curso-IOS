@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <main>
+        <form action="#">
+            <fieldset>
+                <legend>Cadastro Cliente</legend>
+                <label for="email">E-mail:</label>
+                <input type="email" name="email" id="email" placeholder="Digite seu e-mail">
+                <br><br>
+                <label for="password">Senha:</label>
+                <input type="email" name="password" id="password" placeholder="Digite sua senha">
+                <br><br>
+                <label for="contato">Contato:</label>
+                <input type="email" name="contato" id="contato" placeholder="Digite seu número">
+            </fieldset>
+                <br><br>
+                <fieldset>
+                    <legend>Carros Disponíveis</legend>
+                    <select name="listaCarro" id="listaCarro">
+                        <option value="Selecione" selected disabled hidden>Selecione</option>
+                        <option value="Evoque">Evoque</option>
+                        <option value="Celta">Celta</option>
+                        <option value="Gol">Gol</option>
+                        <option value="hb20">HB20</option>
+                        <option value="Mercedes GLE">Mercedes GLE</option>
+                    </select>
+                
+            
+            <p>Região</p>
+            <input autocomplete="on" list="regiao" placeholder="Sua cidade">
+            <datalist id="regiao">
+                <option value="São Paulo"></option>
+                <option value="Juquitiba"></option>
+                <option value="Guarulhos"></option>
+                <option value="Itaquaquecetuba"></option>
+                <option value="Poá"></option>
+            </datalist> 
+            
+            <input type="range" value=""> <br><br>
+        </fieldset>
+        <br><br>
+            <fieldset>
+                <legend>Avaliação do Atendimento</legend>
+                <label for="feedback"></label> 
+                <textarea name="" id="feedback" cols="30" rows="0" minlength="100" maxlength="150" placeholder="Deixe seu feedback aqui"></textarea>
+            </fieldset>
+            <br>
+            <input type="submit" value="Enviar">
+        </form>
+    </main>
+</body>
+</html>

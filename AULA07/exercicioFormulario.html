@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        body {
+            position: absolute;
+            background-color: rgba(76, 76, 239, 0.616);
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        h1 {
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center  ;
+        }
+
+        main {
+        border: 2px solid lightskyblue;
+        border-radius: 7px;
+        width: 500px;
+        margin: auto;
+        background-color: #fff;
+    }
+        form {
+            display: flex;
+            flex-flow: column wrap;
+            align-items: center;
+        }
+    input, label {
+        margin: 10px;
+        border: transparent;
+    }
+    input {
+        background-color: rgb(85, 190, 255);
+        border-radius: 15px;
+        padding: 10px;
+    }
+
+    input:hover {
+        background-color: rgb(44, 183, 229);
+    }
+
+    input::placeholder {
+    color: #fff; 
+    opacity: 1; 
+}
+
+
+
+   input[type="text"] {
+    width: 300px;} 
+    input[type="number"] {
+    width: 300px;} 
+    input[type="password"] {
+    width: 300px;} 
+    input[type="submit"] {
+    width: 300px;} 
+    </style>
+
+</head>
+<body>
+    <main>
+        <h1>CADASTRO DE ALUNO</h1>
+        <form action="">
+            <label for="cNome"><strong>NOME:</strong></label>
+                <input type="text" value="" id="cNome" placeholder="Digite seu nome" required>
+                <br><br>
+                <label for="e-mail"><strong>E-MAIL: </strong></label>
+                <input type="text" id="e-mail" placeholder="Ex: *******@gmail.com" required>
+                <br><br>
+                <label for="idade"><strong>IDADE: </strong></label>
+                <input type="number" name="idade" id="idade" placeholder="Digite sua idade" required>
+                <br><br>
+                <label for="cep"><strong>CEP: </strong></label>
+                <input type="number" name="CEP" id="cep" placeholder="Ex: 07041-200" required>
+                <br><br>
+                <label for="senha"><strong>SENHA:</strong> </label>
+                <input type="password" placeholder="Digite sua senha" required id="senha">
+                <br><br>
+                <input type="submit" value="LOGIN">
+        </form>
+    </main>
+</body>
+</html>

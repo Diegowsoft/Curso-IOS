@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1 {
+            color: rgb(28, 176, 28);
+            text-shadow: 1px 1px 1px green;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Formulários em HTML</h1>
+    </header>
+    <main>
+        <form action="cadastro.php" method="post">
+
+            <label for="cNome">Nome:</label>
+            <input type="text" value="" id="cNome" placeholder="Digite seu nome" required> 
+
+            <br><br>
+
+            <label for="cpf">CPF: </label>
+            <input type="number" name="cpf" id="cpf" placeholder="Ex: 078.123.666-76" required>
+
+            <br><br>
+
+            <label for="cep">CEP: </label>
+            <input type="number" name="CEP" id="cep" placeholder="Ex: 07041-200" required>
+
+            <br><br>
+
+            <label for="e-mail">E-mail: </label>
+            <input type="text" id="e-mail" placeholder="Ex: *******@gmail.com" required>
+
+            <br><br>
+
+            <label for="senha">Senha: </label>
+            <input type="password" placeholder="Digite sua senha" required id="senha">
+
+            <br><br>
+
+            <input type="submit" value="Enviar">
+        </form>
+    </main>
+</body>
+</html>
