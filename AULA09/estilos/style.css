@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body {
+    background-color: #000;
+    height: 100vh;
+}
+.interface {
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 4%;
+}
+.flex {
+    display: flex;
+}
+.btn-contato button {
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #00FF08;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .2s;
+}
+/* Estilo cabeçalho */
+header {
+    background-color: #000;
+}
+
+/* Navegação e botão de contato */
+nav.menu-desktop ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav.menu-desktop ul li {
+    padding: 0 20px;
+}
+
+nav.menu-desktop a {
+    color: #5c5c5c;
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+}
+
+nav.menu-desktop a:hover {
+    color: #fff;
+    transform: scale(1.05);
+}
+.btn-contato button:hover {
+    box-shadow: 0px 0px 8px #00ff0868;
+    transform: scale(1.05);
+}
+/*Estilos do topo do site*/
+.topo-do-site {
+    padding: 40px 4%;
+}
+.topo-do-site .flex{
+    align-items: center;    
+    justify-content: center ;
+    gap: 90px;
+}
+.topo-do-site h1 {
+    color: #fff;
+    font-size: 42px;
+    line-height: 40px;
+}
+.topo-do-site .txt-topo-site h1 span {
+    color: #00FF08;
+}
+.topo-do-site .txt-topo-site p {
+    color: #fff;
+    margin: 40px 0;
+}
+.topo-do-site .img-topo-site img{
+    position: relative;
+    animation: flutuar 2s ease-in-out infinite alternate;
+}
+@keyframes flutuar{
+    0%{
+        top: 0;
+    }
+    100%{
+        top: 30px;
+    }
+}
