@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+body {
+    background-color: lightskyblue;
+}
+img {
+    width: 300px;
+}
+.prod1,.prod2 {
+    background-color: white;
+}
