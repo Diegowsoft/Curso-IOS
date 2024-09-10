@@ -1,5 +1,5 @@
 @charset "UTF-8";
-/*Estilo Geral*/
+/*==========Estilo Geral==========*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 * {
     margin: 0;
@@ -17,7 +17,24 @@ body {
     max-width: 1280px;
     margin: 0 auto;
 }
-/*Estilo do cabecalho*/
+.flex {
+    display: flex;
+}
+.btn-contato button {
+    background-color: #00FF08;
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .2s;
+}
+.btn-contato button:hover {
+    box-shadow: 0px 0px 8px #00ff08;
+    transform: scale(1.05);
+}
+/*==========ESTILO DO CABECALHO==========*/
 header {
     padding: 40px 4%;
 }
@@ -43,15 +60,37 @@ header nav ul li {
     display: inline-block;
     padding: 0 40px;
 }
-header .btn-contato button {
-    background-color: #00FF08;
-    padding: 10px 40px;
-    font-size: 18px;
-    font-weight: 600;
-    border: 0;
-    border-radius: 30px;
-    cursor: pointer;
+/*==========ESTILO DO TOPO DO SITE==========*/
+
+.topo-do-site {
+    padding: 40px 4%;
 }
-header .btn-contato button:hover {
-    box-shadow: 0px 0px 8px #00ff08;
+.topo-do-site .flex {
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+.topo-do-site h1 {
+    font-size: calc(2rem + 10px);
+    line-height: 40px;
+    color: #fff;
+}
+.topo-do-site .txt-topo-site h1 span {
+    color: #00FF08;
+}
+.topo-do-site .txt-topo-site p {
+    color: #fff;
+    margin: 40px 0px;
+}
+.topo-do-site .img-topo-site img {
+    position: relative;
+    animation: flutuar 2s ease-in-out infinite alternate;
+}
+@keyframes flutuar {
+    0% {
+        top: 0;
+    }
+    100% {
+        top: 30px;
+    }
 }
