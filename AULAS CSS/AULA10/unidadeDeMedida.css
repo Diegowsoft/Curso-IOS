@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+* {
+    /* font-size:20px; */
+}
+ul {
+    list-style: none;
+    /* font-size: 2rem;  */
+    
+}
+li {
+    /* font-size: 2em; */
+}
+
+/* REM em relação a raiz/root */
+/* Se eu não definir nada ele será em relação ao padrão que é 16px */
+/* EM em relação ao pai dele no caso o UL */
+body {
+    background-color: deepskyblue;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    color: #838383;
+    letter-spacing: .8px;
+}
+.txt {
+    position: absolute;
+    background-color: #fff;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 1200px;
+    text-align: center;
+    margin: auto;
+    padding: 40px;
+    border-radius: 20px;
+}
+p {
+    /* font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    color: #838383;
+    letter-spacing: .8px; */
+}
+h1 {
+    /* text-align: center; */
+    color:#F29F05;
+    text-shadow: 1px 1px 1px rgb(185, 129, 25);
+}
