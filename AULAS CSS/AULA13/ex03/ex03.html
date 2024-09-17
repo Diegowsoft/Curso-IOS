@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box1 {
+            /* border-color: cadetblue; */
+            width: 300px; /*Significa que ao colocar padding será somado ao tamanho da caixa*/
+            height: 300px;
+            box-sizing: content-box;
+            /*Significa que ao colocar padding será somado ao tamanho da caixa*/
+            font-size: 2em;
+            padding: 30px;
+            border: dotted 10px cadetblue;
+            margin: 0.5em;
+        }
+        .box2 {
+            /* border-color: blueviolet; */
+            width: 300px;
+            height: 300px;
+            box-sizing: border-box;/*Faz com que os novos valores sejam pertencentes ao valor da caixa e não se expandam*/
+            font-size: 2em;
+            padding: 30px;
+            border: dotted 10px blueviolet;
+            margin: 0.5em;
+        }
+    </style>
+</head>
+<body>
+    <div class="box1">box1</div>
+    <div class="box2">box2</div>
+</body>
+</html>
