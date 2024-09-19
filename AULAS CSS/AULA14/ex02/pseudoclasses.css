@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+* {
+    margin: 20px 20px;
+    padding: 0;
+    font-size: 62,5%;
+}
+body {
+    height: 100vh;
+}
+h1 {
+    text-align: center;
+}
+div {
+    margin: 10px auto;
+    font-weight: 700;
+    text-align: center;
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+}
+div:nth-child(even){
+    background-color: aqua;
+}
+h1:hover {
+    background-image: linear-gradient(to right, lightskyblue,aqua,blue);
+    transition: .2s ease-in-out ;
+    transform: scale(1.05); 
+}
+.box1:first-child {
+    background-color: crimson;
+}
+input {
+    background-color: blue;
+    color: #fff;
+    padding: 20px;
+    border-radius: 20px;
+}
+input:focus {
+    border-color: aqua; 
+    outline: none;  
+}
+.botao {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.botao:active {
+    background-color: darkblue; /* Muda a cor de fundo enquanto o botão está sendo clicado */
+}
+h3:empty {
+    text-align: center;
+    border: 3px solid crimson;
+    width: 300px;
+    height: 300px;
+}

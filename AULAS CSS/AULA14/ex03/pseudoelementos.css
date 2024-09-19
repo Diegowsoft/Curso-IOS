@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h2::before {
+    content: "🐶"; /*Faz com que esse emoji de cachorro seja adicionado antes no parágrafo*/
+}
+h3::after {
+    content: "🐱"; /*O modo correto é colocar os emojis atráves do HTML*/
+}
+h4::first-letter {
+    font-size: 3rem;
+    color: purple;
+}

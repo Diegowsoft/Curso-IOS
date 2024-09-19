@@ -7,44 +7,16 @@
 * {
     margin: 0;
     padding: 0;
-    font-size: 62, 5%;
+    font-size: 62.5%;
     font-family: "Bebas Neue", sans-serif;
     font-weight: 400;
 }
-body {
-    background-color: #fff;
-    color: black;
-}
-h1 {
-    font-size: 4.0rem;
-}
-h2 {
-    text-align: center;
-    font-size: 2.5rem;
-    margin-top: 20px;
-}
-p {
-    font-size: 3.0rem;
-}
-main {
-    display: flex;
-    margin: 60px 60px;
-}
+/*=========CABEÇALHO=========*/
 header {
     background-color: #000;
 }
-header nav ul li a {
-    text-decoration: none;
-    color: #fff;
-    font-size: 1.3rem;
-}
 nav {
     text-align: center;
-}
-a:hover {
-    color: #FFB90B;
-    /* transform: scale(10); */
-    transition: .2s ease-in-out;
 }
 header nav ul li {
     display: inline;
@@ -52,36 +24,73 @@ header nav ul li {
     padding: 30px;
     line-height: 50px;
 }
-strong {
-    color: #FFB90B;
-}
-img {  
-    width: 50vw;
-}
-#sobre {
-    display: flex;
-    align-items: center;
-}
-iframe {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    box-shadow: -20px 20px 2px #cd9402;
-}
-footer {
-    text-align: center;
-    background-color: #000;
-    color: #fff;
-    padding: 3px;
-}
-#small {
-    font-size: 1.5rem;
-}
 header > nav > ul > img {
     position: absolute;
     top: 1px;
     left: 30px;
     width: 50px;
     border-radius: 50%;
+}
+header nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 2.3rem;
+}
+/*=========CONFIGURAÇÕES GERAIS=====    ====*/
+body {
+    background-color: #fff;
+    color: black;
+    } 
+    h1 {
+        font-size: 8.0rem;
+    }
+    h2 {
+        text-align: center;
+        font-size: 7.0rem;
+        line-height: 70%;
+    }
+    p {
+        font-size: 2.0rem;
+    }
+    p strong {
+        font-size: 3.0rem;
+    }
+    strong {
+        color: #FFB90B;
+    }
+    main {
+        margin: 60px 60px;
+    }
+    a:hover {
+        color: #FFB90B;
+        transition: .2s ease-in-out;
+        cursor: pointer;
+    }
+    iframe {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        box-shadow: -20px 20px 2px #cd9402;
+    }
+/*=========PRINCIPAL=========*/
+#imagem-principal {  
+    width: 50vw;
+}
+#sobre {
+    display: flex;
+    align-items: center;
+}
+/*=========RODAPÉ=========*/
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+}
+#small {
+    font-size: 2.5rem;
 }
