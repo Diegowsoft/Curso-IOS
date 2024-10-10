@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+h1 {
+    text-align: center;
+}
+h1:hover {
+    transform: scale(1.05);
+}
+#container {
+    display: grid;
+    width: 800px;
+    height: 800px;
+    border: dotted 3px purple;
+    margin: 25px auto;
+    column-gap: 10px;
+    row-gap: 35px;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3, 1fr) ;
+    grid-template-areas:
+    "Caixa1 Caixa1 Caixa1"
+    "Caixa2 Caixa2 Caixa2"
+    "Caixa3 Caixa3 Caixa3"
+}
+
+.caixa1 {
+    background-color: aqua;
+    grid-area: Caixa1;
+}
+.caixa2 {
+    background-color: brown;
+    grid-area: Caixa2;
+}
+.caixa3 {
+    background-color: yellow;
+    grid-area: Caixa3;
+}

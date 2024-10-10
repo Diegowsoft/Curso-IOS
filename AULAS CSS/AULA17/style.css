@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+.flex {
+    display: flex;
+    justify-content: center;
+}
+.box {
+    width: 300px;
+}

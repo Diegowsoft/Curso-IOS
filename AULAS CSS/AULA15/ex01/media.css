@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+
+/*=========CELULAR=========*/
+@media screen and (max-width:320px){
+    /* Enquanto tela não for maior do que 320px  */
+    h1 {
+        color: rebeccapurple;
+        font-size: 2.3rem;
+    }
+}
+@media print and (max-width:800px){
+    h2 {
+        color: silver;
+    }
+}
+@media (max-width:481px){
+    h2 {
+        color: purple;
+    }
+}
+@media (min-width:769px){
+    h3 {
+        background-color: brown;
+        color: #fff;
+        text-align: center;
+    }
+}
+@media (min-width:1025px) and (max-width:1200px){
+    h2,h3,h4,h5 {
+        display: none;
+    }
+}

@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+.container {
+    display: grid;
+    height: 800px;
+    width: 800px;
+    margin: 25px auto;
+    border: dotted 3px purple;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-areas: 
+    "header header header header header header"
+    "aside aside main main main main"
+    "aside aside main main main main"
+    "footer footer footer footer footer footer" ;
+}
+.box {
+    border: dotted 3px purple;
+
+}
+.box1 {
+    grid-area: header;
+    background-color: blue;
+}
+.box2 {
+    grid-area: aside;
+    background-color: brown;
+}
+.box3 {
+    grid-area: main;
+    background-color: lightgreen;
+}
+.box4 {
+    grid-area: footer;
+    background-color: black;
+}
+
