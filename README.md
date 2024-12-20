@@ -18,6 +18,8 @@ Durante o curso, foram abordadas as seguintes tecnologias:
 - **React** - Biblioteca para construção de interfaces interativas
 - **API RESTful** - Conceitos de desenvolvimento de APIs
 - **Banco de Dados** - Conceitos de banco de dados e integração com as aplicações web
+
+
 Contato
 Se você tiver dúvidas sobre os projetos ou sobre o curso, entre em contato comigo via:
 
