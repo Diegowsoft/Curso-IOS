@@ -21,6 +21,7 @@ Durante o curso, foram abordadas as seguintes tecnologias:
 
 
 Contato
+
 Se você tiver dúvidas sobre os projetos ou sobre o curso, entre em contato comigo via:
 
 E-mail: zdiegofagundes@gmail.com
